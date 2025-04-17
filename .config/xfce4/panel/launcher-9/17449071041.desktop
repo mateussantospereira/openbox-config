@@ -1,0 +1,18 @@
+[Desktop Entry]
+Type=Application
+Icon=system-file-manager
+Name=File Manager PCManFM
+Name[pt]=Gestor de ficheiros PCManFM
+Name[pt_BR]=Gerenciador de Arquivos PCManFM
+GenericName=File Manager
+GenericName[pt]=Gestor de ficheiros
+GenericName[pt_BR]=Gerenciador de arquivos
+Comment=Browse the file system and manage the files
+Comment[pt]=Explorar o sistema de ficheiros e gerir ficheiros
+Comment[pt_BR]=Navegue pelo sistema de arquivos e gerencie arquivos e pastas
+Categories=System;FileTools;FileManager;Utility;Core;GTK;
+Exec=pcmanfm %U
+StartupNotify=true
+Terminal=false
+MimeType=inode/directory;
+X-XFCE-Source=file:///usr/share/applications/pcmanfm.desktop
