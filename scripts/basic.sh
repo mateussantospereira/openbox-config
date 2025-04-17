@@ -1,19 +1,37 @@
 apt install \
     xorg \
     curl \
-    wget \
+    wget
+
+apt install \
     openbox \
-    obconf \
-    lxapparence \
-    lxapparence-obcoonf \
-    compton \
+    obconf 
+
+apt install \
+    lxappearance \
+    lxappearance-obconf \
+    compton 
+
+apt install \
     network-manager \
-    network-manager-gnome \
+    network-manager-gnome 
+
+apt install \
+    fonts-ubuntu \
+    fonts-roboto \
+    elementary-xfce-icon-theme
+
+apt install \
     pulseaudio \
     xfce4-panel \
     xfce4-pulseaudio-plugin \
     xfce4-power-manager \
-    xfce4-power-manager-plugins \
+    xfce4-power-manager-plugins 
+
+apt install \
+    htop \
+    acpi \
+    inxi \
     lightdm-gtk-greeter \
     ristretto \
     pcmanfm \

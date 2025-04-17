@@ -1,0 +1,16 @@
+[Unit]
+Description=Montagem do Google Drive com o Rclone
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/rclone mount gdrive: ~/"Google Drive" \
+    --config=~/.config/rclone/rclone.conf \
+    --vfs-cache-mode writes \
+    --allow-other
+ExecStop=/bin/fusermount -u ~/"Google Drive"
+Restart=always
+
+[Install]
+WantedBy=default.target
